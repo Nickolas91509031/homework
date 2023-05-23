@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+body {
+  margin: 10px;
+  display: flex;
+}
+
+.main {
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+.navigation--menu {
+  display: flex;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+}
+
+.search-icon,
+.layout {
+  flex-grow: 1;
+  margin-top: 10px;
+  display: flex;
+  justify-content: end;
+}
+
+.today {
+  flex-grow: 20;
+  color: #243d6f;
+  font-family: "Roboto", sans-serif;
+}
+
+.main--line svg {
+  position: absolute;
+}
+
+.line svg {
+  background: #9c9898;
+}
+
+.main--part {
+  margin-top: 3.8em;
+  display: flex;
+}
+
+.main--part .main--time {
+  flex-direction: column;
+}
+
+.main--part .time div {
+  height: 4em;
+  width: 38px;
+  position: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.main--part .notice {
+  margin-left: 2em;
+  display: flex;
+  flex-grow: 19;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div--sophia {
+  width: 1213px;
+  height: 4em;
+  background: rgba(133, 118, 237, 0.15);
+  text-align: center;
+  border-left: 6px solid rgba(133, 118, 237, 1);
+}
+
+.sophia {
+  margin-top: 1.5em;
+  font-family: "Roboto", sans-serif;
+}
+
+.div--studio {
+  margin-top: 4em;
+  width: 1213px;
+  height: 10em;
+  background: rgba(61, 131, 249, 0.15);
+  text-align: center;
+  border-left: 6px solid rgba(133, 118, 237, 1);
+}
+
+.studio {
+  margin-top: 4.5em;
+  font-family: "Roboto", sans-serif;
+}
+
+.div--johny {
+  margin-top: 6em;
+  width: 1213px;
+  height: 8em;
+  background: rgba(238, 165, 124, 0.15);
+  text-align: center;
+  border-left: 6px solid rgba(133, 118, 237, 1);
+}
+
+.johny {
+  margin-top: 4em;
+  font-family: "Roboto", sans-serif;
+}
+
+.main--line {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.main--line div {
+  height: 4em;
+}
+
+.aside--section {
+  padding: 2em;
+  height: 850px;
+  width: 27em;
+  background: rgba(42, 46, 65, 0.7);
+}
+
+.aside--div--time {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.aside--div--time .aside--time {
+  margin-top: 0.5em;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  width: 320px;
+}
+
+.aside .calendar {
+  width: 100%;
+  height: 400px;
+  font-family: "Roboto", sans-serif;
+  color: rgba(255, 255, 255, 1);
+}
+
+.calendar tr:nth-child(6) th:nth-child(5),
+.calendar tr:nth-child(6) th:nth-child(6),
+.calendar tr:nth-child(6) th:nth-child(7) {
+  opacity: 0.5;
+}
+
+.calendar tr:nth-child(4) th:nth-child(3),
+.calendar tr:nth-child(4) th:nth-child(4) {
+  background: #3c82f9;
+  border-radius: 50%;
+}
+
+.calendar tr:nth-child(1) {
+  opacity: 0.5;
+}
+
+.name--categories {
+  margin-top: 50px;
+  font-family: "Roboto", sans-serif;
+  color: rgba(255, 255, 255, 1);
+}
+
+.first--categories {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.first--categories div {
+  width: 200px;
+  height: 80px;
+  color: rgba(255, 255, 255, 1);
+  border-radius: 12px;
+  text-align: center;
+}
+
+.first--categories div div {
+  padding-top: 2em;
+}
+
+.first--categories .finance {
+  background: #8576ed;
+  font-family: "Roboto", sans-serif;
+}
+
+.first--categories .management {
+  background: #f39946;
+  font-family: "Roboto", sans-serif;
+}
+
+.second--categories div {
+  margin-top: 30px;
+  width: 200px;
+  height: 80px;
+  color: rgba(255, 255, 255, 1);
+  border-radius: 12px;
+  text-align: center;
+}
+
+.second--categories div div {
+  padding-top: 2em;
+}
+
+.second--categories .design {
+  background: #ff467e;
+  font-family: "Roboto", sans-serif;
+}
