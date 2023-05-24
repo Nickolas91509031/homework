@@ -81,7 +81,7 @@ body {
   height: 10em;
   background: rgba(61, 131, 249, 0.15);
   text-align: center;
-  border-left: 6px solid rgba(133, 118, 237, 1);
+  border-left: 6px solid rgba(61, 131, 249, 1);
 }
 
 .studio {
@@ -95,7 +95,7 @@ body {
   height: 8em;
   background: rgba(238, 165, 124, 0.15);
   text-align: center;
-  border-left: 6px solid rgba(133, 118, 237, 1);
+  border-left: 6px solid rgba(238, 165, 124, 1);
 }
 
 .johny {
