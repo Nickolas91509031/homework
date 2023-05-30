@@ -65,12 +65,12 @@
     flex-basis: 40%;
   }
 
-  .second {
-    flex-basis: 100%;
-  }
-
   .third .colored {
     flex-basis: 50%;
+  }
+
+  .third .colored:last-child {
+    flex-basis: 100%;
   }
 
   .fourth .colored:nth-child(1),
@@ -84,6 +84,10 @@
 
   .fifth .colored {
     flex-basis: 33%;
+  }
+
+  .fifth {
+    justify-content: center;
   }
 }
 
