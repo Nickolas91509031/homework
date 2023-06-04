@@ -1,0 +1,121 @@
+:root {
+  @import url("https://fonts.googleapis.com/css2?family=Syne&display=swap");
+}
+
+/*font-family: 'Syne', sans-serif;*/
+
+body {
+  margin-top: 0.48%;
+  margin-left: 4.8%;
+  margin-right: 4.8%;
+  border: 1px solid #000000;
+  padding-top: 0.7%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.nav--header {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.div--logo {
+  display: flex;
+}
+
+.logo {
+  width: 40px;
+  margin-bottom: 1em;
+}
+
+.BINO {
+  font-size: 3em;
+  text-decoration: none;
+  font-family: "Syne", sans-serif;
+  color: black;
+}
+
+.menu li:hover {
+  text-decoration: underline;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 15em;
+}
+
+.menu a {
+  color: black;
+  text-decoration: none;
+  font-family: "Syne", sans-serif;
+  margin-left: 2em;
+}
+
+.line {
+  width: 2px;
+  height: 25px;
+  margin-left: 2em;
+}
+
+.section--talk {
+  display: flex;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.div--talk {
+  background-color: black;
+  border-radius: 5px;
+  height: 50%;
+  width: 10em;
+  text-align: center;
+  padding-top: 1em;
+  margin-left: 2em;
+}
+
+.div--talk:hover {
+  background-color: white;
+  border: 1px solid black;
+}
+
+.div--talk a:hover {
+  color: black;
+}
+
+.talk {
+  font-family: "Syne", sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+.section--social {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social svg {
+  width: 50px;
+}
+
+.section--digital {
+  margin-top: 5em;
+}
+
+.woomen--group {
+  display: flex;
+}
+
+.img--group {
+  margin-right: 15%;
+  margin-top: 5%;
+}
+
+.img--woomen {
+  width: 100%;
+}
+
+.digital--text {
+  
+}
