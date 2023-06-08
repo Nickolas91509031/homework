@@ -13,7 +13,9 @@ function includes(arr, value) {
 function getMissingElement(superImportantArray) {
   for (let i = 0; i < 10; i++) {
     if (includes(superImportantArray, i) === false) {
-      console.log(i);
+      return i;
     }
   }
 }
+
+console.log(getMissingElement(superImportantArray));
