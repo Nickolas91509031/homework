@@ -1,4 +1,5 @@
 const superImportantArray = [0, 5, 1, 3, 2, 9, 7, 6, 4];
+console.log(superImportantArray);
 
 function includes(arr, value) {
   for (let i = 0; i < arr.length; i++) {
@@ -12,10 +13,7 @@ function includes(arr, value) {
 function getMissingElement(superImportantArray) {
   for (let i = 0; i < 10; i++) {
     if (includes(superImportantArray, i) === false) {
-      return i;
+      console.log(i);
     }
   }
 }
-
-console.log(superImportantArray);
-console.log(i);
