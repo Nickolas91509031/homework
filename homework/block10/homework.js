@@ -61,6 +61,8 @@ function getVillainName(birthday) {
   return firstNames[birthday.getMonth()] + " " + lastNames[birthday.getDate() % 10];
 }
 
+console.log(getVillainName(birthday));
+
 //#4
 
 walk = ["n", "s", "w", "e", "n", "s", "w", "e", "n"];
