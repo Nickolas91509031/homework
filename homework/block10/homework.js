@@ -11,13 +11,13 @@ function getMissingElement(superImportantArray) {
 console.log(getMissingElement(superImportantArray));
 */
 
-walk = ["n", "s", "w", "e", "n", "s", "w", "e", "n", "s"];
+walk = ["n", "s", "w", "e", "n", "s", "w", "e", "n"];
 
 console.log(walk);
 
 function isValidWalk(walk) {
   for (let i = 0; i < walk.length; i++) {
-    if ((i = 9)) {
+    if ((i === 9)) {
       return true;
     }
     return false;
