@@ -16,7 +16,7 @@ walk = ["n", "s", "w", "e", "n", "s", "w", "e", "n", "s"];
 console.log(walk);
 
 function isValidWalk(walk) {
-  for (i = 0; i < walk.length; i++) {
+  for (let i = 0; i < walk.length; i++) {
     if ((i = 9)) {
       return true;
     }
