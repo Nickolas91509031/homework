@@ -71,7 +71,7 @@ console.log(walk);
 
 function isValidWalk(walk) {
   if (walk.lenth = 10) {
-    if (walk.find('n') = walk.find('s') || walk.find(w) = walk.find('e')) {
+    if (walk.find('n') = walk.find('s') || walk.find('w') = walk.find('e')) {
       return true;
     }
   }
