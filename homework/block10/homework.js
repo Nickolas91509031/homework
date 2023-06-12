@@ -65,18 +65,15 @@ console.log(getVillainName(birthday));
 
 //#4
 
-walk = ["n", "s", "w", "e", "n", "s", "w", "e", "n"];
+walk = ["n", "s", "w", "e", "n", "s", "w", "e", "n", "s"];
 
 console.log(walk);
 
 function isValidWalk(walk) {
-  for (let i = 0; i < walk.length; i++) {
-    if (i === 9) {
+  if (walk.lenth = 9) {
+    if (walk.find('n') = walk.find('s') $$ (walk.find(w) = walk.find('e')) {
       return true;
     }
-    return false;
   }
-  return false;
-}
 
 console.log(isValidWalk(walk));
