@@ -69,11 +69,28 @@ const walk = ["n", "s", "w", "e", "n", "s", "w", "e", "n", "s"];
 
 console.log(walk);
 
+let north = 0;
+let south = 0;
+let east = 0;
+let west = 0;
+
 function isValidWalk(walk) {
-  if (walk.lenth = 10) {
-    if (walk.find('n') = walk.find('s') || walk.find('w') = walk.find('e')) {
-      return true;
+  for (let i = 0; i < walk.length; i++) {
+    if (walk[i] == 'n') {
+      north = 1;
+    } else if (walk[i] == 's') {
+      south = -1;
+    } else if (walk[i] == 'w') {
+      west = 1;
+    } else (walk[i] == 'e') {
+      east = -1;
     }
   }
 
-console.log(isValidWalk(walk));
+function result(walk) {
+  if (walk.isValidWalk(walk.reduce) = 0) {
+    return true;
+  }
+}
+
+  console.log(isValidWalk(walk));
