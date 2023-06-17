@@ -58,6 +58,6 @@ function isValidWalk(walk) {
   }
 }
 
-return north === south && west === east;
+return north = south && west = east;
 
 console.log(isValidWalk(walk));
