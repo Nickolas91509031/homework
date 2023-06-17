@@ -41,6 +41,11 @@ console.log(questions);
 const walk = ["n", "s", "w", "e", "n", "s", "w", "e", "n", "s"];
 
 function isValidWalk(walk) {
+  let north = 0;
+  let south = 0;
+  let west = 0;
+  let east = 0;
+
   if (walk.length !== 10) {
     return false;
   }
@@ -56,7 +61,7 @@ function isValidWalk(walk) {
       east = 1;
     }
   }
-  
+
   return north = south && west = east;
 }
 
