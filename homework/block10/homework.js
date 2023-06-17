@@ -38,7 +38,7 @@ console.log(questions);
 
 //#4
 
-const walk = ["n", "s", "w", "e", "n", "s", "w", "e", "n", "s"];
+const walk = ["n", "s", "w", "e", "n", "s", "w", "e", "n", "w"];
 
 function isValidWalk(walk) {
   let north = 0;
