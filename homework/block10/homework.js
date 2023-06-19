@@ -38,7 +38,7 @@ console.log(questions);
 
 //#4
 
-const walk = ["n", "s", "w", "e", "n", "s", "w", "e", "n", "w"];
+const walk = ["n", "s", "w", "e", "n", "s", "w", "e", "n", "s"];
 
 function isValidWalk(walk) {
   let north = 0;
@@ -65,4 +65,6 @@ function isValidWalk(walk) {
   return north === south && west === east;
 }
 
-console.log(isValidWalk(walk));
+console.log(isValidWalk(["n", "s", "w", "e", "n", "s", "w", "e", "n", "s"]));
+console.log(isValidWalk(["n", "s", "w", "e", "n", "s", "w", "e", "n", "w"]));
+console.log(isValidWalk(["n", "s", "w", "e", "n", "s", "w", "e", "n"]));
