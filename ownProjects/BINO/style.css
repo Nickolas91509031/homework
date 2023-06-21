@@ -75,6 +75,10 @@ body {
   margin-left: 2em;
 }
 
+.div--talk div {
+  height: 100%;
+}
+
 .div--talk:hover {
   background-color: white;
   border: 1px solid black;
@@ -114,8 +118,4 @@ body {
 
 .img--woomen {
   width: 100%;
-}
-
-.digital--text {
-  
 }

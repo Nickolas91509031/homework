@@ -38,7 +38,7 @@ console.log(questions);
 
 //#4
 
-const walk = ["n", "s", "w", "e", "n", "s", "w", "e", "n", "s"];
+/* const walk = ["n", "s", "w", "e", "n", "s", "w", "e", "n", "s"];
 
 function isValidWalk(walk) {
   let north = 0;
@@ -52,19 +52,49 @@ function isValidWalk(walk) {
 
   for (let i = 0; i < walk.length; i++) {
     if (walk[i] === "n") {
-      north += 1;
+      north++;
     } else if (walk[i] === "s") {
-      south += 1;
+      south++;
     } else if (walk[i] === "w") {
-      west += 1;
+      west++;
     } else if (walk[i] === "e") {
-      east += 1;
+      east++;
     }
   }
 
   return north === south && west === east;
 }
 
-console.log(isValidWalk(["n", "s", "w", "e", "n", "s", "w", "e", "n", "s"]));
-console.log(isValidWalk(["n", "s", "w", "e", "n", "s", "w", "e", "n", "w"]));
-console.log(isValidWalk(["n", "s", "w", "e", "n", "s", "w", "e", "n"]));
+console.log(isValidWalk(["n", "s", "w", "e", "n", "s", "w", "e", "n", "s"]) === true);
+console.log(isValidWalk(["n", "s", "w", "e", "n", "s", "w", "e", "n", "w"]) === false);
+console.log(isValidWalk(["n", "s", "w", "e", "n", "s", "w", "e", "n"]) === false);
+
+*/
+
+function isValidWalk(walk) {
+  if (walk.length != 10) {
+    return false;
+  }
+
+  const result = walk.reduce(
+    function (result, symbol) {
+      result[symbol]++;
+
+      console.log("reduce", { ...result }, symbol);
+
+      return result;
+    },
+    {
+      n: 0,
+      s: 0,
+      w: 0,
+      e: 0,
+    }
+  );
+
+  return result.n === result.s && result.w === result.e;
+}
+
+console.log(isValidWalk(["n", "s", "w", "e", "n", "s", "w", "e", "n", "s"]) === true);
+console.log(isValidWalk(["n", "s", "w", "e", "n", "s", "w", "e", "n", "w"]) === false);
+console.log(isValidWalk(["n", "s", "w", "e", "n", "s", "w", "e", "n"]) === false);
