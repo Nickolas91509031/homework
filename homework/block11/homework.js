@@ -7,7 +7,7 @@ let sum = 0;
 
 function getPeople(handshake) {
   for (i = 0; i < handshake + 1; i++) {
-    if ((i += sum === handshake)) {
+    if ((sum += i === handshake)) {
       return i;
     }
   }
