@@ -3,9 +3,11 @@
 //? Сколько человек зашло в кабинет, если известно,
 //? что всего произошло 120 рукопожатий.
 
+let sum = 0;
+
 function getPeople(handshake) {
-  for (i = 0; i < handshake; i++) {
-    if ((i += i === handshake)) {
+  for (i = 0; i < handshake + 1; i++) {
+    if ((i += sum === handshake)) {
       return i;
     }
   }
@@ -16,7 +18,7 @@ console.log(getPeople(3)); // 2
 console.log(getPeople(6)); // 3
 console.log(getPeople(10)); // 4
 console.log(getPeople(15)); // 5
-console.log(getPeople(120)); // ? 15
+console.log(getPeople(12)); // ? 15
 
 //  6           7
 // 15 + 6 = 21 + 7 = 28 + 8 = 36 + 9 = 45 + 10 = 55 + 11 = 66 + 12 = 78 + 13 = 91 + 14 = 105 + 15 = 120;
