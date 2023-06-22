@@ -1,4 +1,4 @@
-//#1
+//Return the Missing Element
 const superImportantArray = [9, 2, 4, 5, 7, 0, 8, 6, 1];
 
 console.log(superImportantArray);
@@ -13,7 +13,7 @@ function getMissingElement(superImportantArray) {
 
 console.log(getMissingElement(superImportantArray));
 
-//#2
+//Add property to every object in array
 
 var questions = [
   {
@@ -36,7 +36,32 @@ questions.forEach(function (i) {
 
 console.log(questions);
 
-//#4
+//Find Your Villain Name
+
+/*
+function getVillainName(birthday) {
+  firstNames = [
+    "The Evil",
+    "The Vile",
+    "The Cruel",
+    "The Trashy",
+    "The Despicable",
+    "The Embarrassing",
+    "The Disreputable",
+    "The Atrocious",
+    "The Twirling",
+    "The Orange",
+    "The Terrifying",
+    "The Awkward",
+  ];
+  lastNames = ["Mustache", "Pickle", "Hood Ornament", "Raisin", "Recycling Bin", "Potato", "Tomato", "House Cat", "Teaspoon", "Laundry Basket"];
+  return firstNames[birthday.getMonth()] + " " + lastNames[birthday.getDate() % 10];
+}
+
+console.log(getVillainName(birthday));
+*/
+
+//Take a Ten Minute Walk
 
 /* const walk = ["n", "s", "w", "e", "n", "s", "w", "e", "n", "s"];
 
