@@ -4,13 +4,17 @@
 //? что всего произошло 120 рукопожатий.
 
 let sum = 0;
+let i = 0;
+
 
 function getPeople(handshake) {
-  for (i = 0; i < handshake + 1; i++) {
-    if ((sum += i === handshake)) {
+  for (i = 0; sum < handshake; i++) {
+    if (sum += i) {
       return i;
     }
   }
+
+  i = 1;
 }
 
 console.log(getPeople(1)); // 1
