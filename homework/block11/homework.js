@@ -9,9 +9,9 @@ let i = 0;
 
 function getPeople(handshake) {
   for (i = 1; sum < handshake; i++) {
-    sum += i;
-
-    return i;
+    if (sum += i === handshake) {
+      return i;
+    }
   }
 }
 
