@@ -8,13 +8,11 @@ let i = 0;
 
 
 function getPeople(handshake) {
-  for (i = 0; sum < handshake; i++) {
-    if (sum += i) {
-      return i;
-    }
-  }
+  for (i = 1; sum < handshake; i++) {
+    sum += i;
 
-  i = 1;
+    return i;
+  }
 }
 
 console.log(getPeople(1)); // 1
