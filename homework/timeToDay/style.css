@@ -9,7 +9,7 @@ body {
     height: 50em;
     width: 50em;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
     display: flex;
     background-color: black;
 }
