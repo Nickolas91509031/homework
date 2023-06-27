@@ -7,6 +7,12 @@ const dateInput = prompt("Please enter the date (YYYY-MM-DD)");
 const inputDate = new Date(dateInput);
 const timeDiff = inputDate.getTime() - current.getTime();
 
+/*
+if (dateInput = "") {
+    text = "Something's wrong";
+}
+*/
+
 if (timeDiff < 0) {
     left = Math.ceil((timeDiff - 1000*60*60*24*30) / (1000 * 60 * 60 * 24 * 30 * 12));
 
