@@ -1,0 +1,13 @@
+body {
+    margin: 10px;
+}
+
+.date {
+    height: 50%;
+    width: 50%;
+    background-color: black;
+}
+
+p {
+    color: white;
+}
