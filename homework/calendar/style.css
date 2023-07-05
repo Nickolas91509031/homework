@@ -65,7 +65,7 @@ body {
 }
 
 .div--sophia {
-  width: 1213px;
+  width: 100%;
   height: 4em;
   background: rgba(133, 118, 237, 0.15);
   text-align: center;
@@ -79,7 +79,7 @@ body {
 
 .div--studio {
   margin-top: 4em;
-  width: 1213px;
+  width: 100%;
   height: 10em;
   background: rgba(61, 131, 249, 0.15);
   text-align: center;
@@ -93,7 +93,7 @@ body {
 
 .div--johny {
   margin-top: 6em;
-  width: 1213px;
+  width: 100%;
   height: 8em;
   background: rgba(238, 165, 124, 0.15);
   text-align: center;

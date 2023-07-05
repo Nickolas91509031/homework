@@ -13,15 +13,15 @@ if (isNaN(inputDate)) {
 }
 
 else if (timeDiff < 0) {
-    years = Math.ceil((timeDiff - 1000*60*60*24*30) / (1000 * 60 * 60 * 24 * 30 * 12));
-    monthes = Math.ceil((timeDiff) % (1000 * 60 * 60 * 24 * 30 * 12) / (1000 * 60 * 60 * 24 * 30));
+    years = Math.ceil((timeDiff + 1000*60*60*24*30) / (1000 * 60 * 60 * 24 * 30 * 12));
+    monthes = Math.ceil((timeDiff + 1000*60*60*24*30) % (1000 * 60 * 60 * 24 * 30 * 12) / (1000 * 60 * 60 * 24 * 30));
 
     text = "That's was " + (-years) + " years and " + (-monthes) + " monthes old";
 }
 
 else {
     years = Math.ceil((timeDiff - 1000*60*60*24*30) / (1000 * 60 * 60 * 24 * 30 * 12));
-    monthes = Math.ceil((timeDiff) % (1000 * 60 * 60 * 24 * 30 * 12) / (1000 * 60 * 60 * 24 * 30));
+    monthes = Math.ceil((timeDiff - 1000*60*60*24*30) - (timeDiff - 1000*60*60*24*30) / (1000 * 60 * 60 * 24 * 30 * 12));
 
     text = "For your date left " + (years) + " years and " + (monthes) + " monthes";
 }
